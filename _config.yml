@@ -20,8 +20,8 @@
 
 title: The Great Outdoors Dataset
 description: The Great Outdoors Dataset Off-Road Multi-Modal Dataset
-baseurl: "" # leave this blank for GitHub Pages
-url: "https://yourusername.github.io/repositoryname" # Replace with your GitHub Pages URL
+baseurl: "The-Great-Outdoors-Dataset.github.io" # leave this blank for GitHub Pages
+url: "https://github.com/unmannedlab/The-Great-Outdoors-Dataset.github.io" # Replace with your GitHub Pages URL
 
 
 # Build settings
