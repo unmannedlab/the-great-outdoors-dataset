@@ -17,3 +17,5 @@ title: Platform
 ![Sensor Setup Illustration](./images/3D_arl.png)
 
 3D scan of the sensor setup.([Download](https://drive.google.com/file/d/1lTc4GO6WiOHxn7cqnY3baj5yh7qnQ5oX/view?usp=sharing))
+
+![Warthog in RVIZ](images/platform_ros.png)
