@@ -24,3 +24,6 @@ The Great Outdoors Dataset: Off-Road Multi-Modal Dataset is a comprehensive reso
 ### Collaborators:
 - [Texas A&M University](https://www.tamu.edu/): Peng Jiang, Kasi Viswanath, Akhil Nagariya, George Chustz, Srikanth Saripalli 
 - [CCDC Army Research Laboratory](https://www.arl.army.mil/) Maggie Wigness, Philip Osteen, Tim Overbye, Christian Ellis, Long Quang
+
+### License
+All datasets and code on this page are copyrighted by us and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. 
