@@ -275,6 +275,9 @@ To run cartographer on RELLIS-3D please refer to [here](https://github.com/unman
 All datasets and code on this page are copyright by us and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. 
 -->
 
+## License
+All datasets and code on this page are copyright by us and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. 
+
 ## Related Work
 
 
