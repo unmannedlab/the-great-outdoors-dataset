@@ -6,7 +6,7 @@
 
 ### Collaborators:
 - [Texas A&M University](https://www.tamu.edu/): Peng Jiang, Kasi Viswanath, Akhil Nagariya, George Chustz, Srikanth Saripalli 
-- [CCDC Army Research Laboratory](https://www.arl.army.mil/) Maggie Wigness, Philip Osteen, Tim Overbye, Christian Ellis, Long Quang
+- [DEVCOM Army Research Laboratory](https://www.arl.army.mil/) Maggie Wigness, Philip Osteen, Tim Overbye, Christian Ellis, Long Quang
   
 <!--## Updates
 * 11/26/2020 v1.0 release
