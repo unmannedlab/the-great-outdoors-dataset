@@ -3,12 +3,11 @@
 </h>
 <p align="center">
 <a href="https://www.tamu.edu/"><img src="images/tamu_logo.png" alt="Texas A&M University" height="90px" width="450px"></a>&emsp;&emsp;&emsp;&emsp;<a href="https://www.arl.army.mil/"><img src="images/arl_logo.png" alt="The DEVCOM Army Research Laboratory" height="90px" width="270px"></a></p>
-<p align="center">
- Peng Jiang<sup>1</sup>, Philip Osteen<sup>2</sup>, Maggie Wigness<sup>2</sup> and Srikanth Saripalli<sup>1</sup><br>
-1. <a href="https://www.tamu.edu/">Texas A&M University; </a>&emsp;2. <a href="https://www.arl.army.mil/">CCDC Army Research Laboratory</a><br>
-<!--a href="https://unmannedlab.github.io/research/RELLIS-3D">[Website]</a> <a href="https://arxiv.org/abs/2011.12954">[Paper]</a> <a href="https://github.com/unmannedlab/RELLIS-3D">[Github]</a--> 
-</p>
 
+### Collaborators:
+- [Texas A&M University](https://www.tamu.edu/): Peng Jiang, Kasi Viswanath, Akhil Nagariya, George Chustz, Srikanth Saripalli 
+- [CCDC Army Research Laboratory](https://www.arl.army.mil/) Maggie Wigness, Philip Osteen, Tim Overbye, Christian Ellis, Long Quang
+  
 <!--## Updates
 * 11/26/2020 v1.0 release
 * 02/25/2021 improve camera and lidar calibration parameter
