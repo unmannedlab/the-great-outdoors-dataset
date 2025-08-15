@@ -90,7 +90,7 @@ To provide multi-modal data for enhancing autonomous off-road navigation, we dev
 **Full Image Annotations ID Format** ([Download](https://drive.google.com/file/d/1u_cRN-SkU2b_M5pWCRU0rL4_RkCTUTsA/view?usp=sharing))
 
 ### LiDAR Data
-**Synced LiDAR Pointcloud Semantic-KITTI Format** ([Download]())
+**Synced LiDAR Pointcloud Semantic-KITTI Format** ([Download](https://drive.google.com/file/d/1pzBnAVe-q531XBSnNUY8I42XOogDnLY7/view?usp=sharing))
 
 ### RADAR Data
 **Synced RADAR Polar Images** ([Download](https://drive.google.com/file/d/1KC56g3GriVsIA5rkKCFA7mqBWeuZL9PQ/view?usp=sharing))
