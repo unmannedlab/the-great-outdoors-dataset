@@ -615,6 +615,38 @@ li + li {
   gap: 1rem;
 }
 
+.annotation-panel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.annotation-panel-grid .image-frame img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.caption-example {
+  padding: 1.2rem;
+}
+
+.caption-example h3 {
+  margin: 0.65rem 0 0.35rem;
+}
+
+.caption-example h3:first-of-type {
+  margin-top: 0;
+}
+
+.caption-example p {
+  color: var(--muted);
+}
+
+.caption-example p:last-child {
+  margin-bottom: 0;
+}
+
 .download-card {
   display: flex;
   min-height: 210px;
@@ -901,7 +933,8 @@ td:first-child {
   .split,
   .section-head,
   .page-hero__grid,
-  .media-pair {
+  .media-pair,
+  .annotation-panel-grid {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -975,7 +1008,8 @@ td:first-child {
   .split,
   .section-head,
   .page-hero__grid,
-  .media-pair {
+  .media-pair,
+  .annotation-panel-grid {
     grid-template-columns: 1fr;
   }
 
