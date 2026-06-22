@@ -1,29 +1,172 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
-<h align="center">
-<h1>The Great Outdoors Dataset: Off-Road Multi-Modal Dataset</h1>
-</h>
-<p align="center">
-  <a href="https://www.tamu.edu/">
-    <img src="images/tamu_logo.png" alt="Texas A&M University" height="80px" width="416px">
-  </a> &emsp;&emsp;
-  <a href="https://www.arl.army.mil/">
-    <img src="images/arl_logo.png" alt="The DEVCOM Army Research Laboratory" height="80px" width="231px">
-  </a>
-</p>
+<section class="hero">
+  <div class="hero__background" aria-hidden="true">
+    <img src="{{ '/images/GO_image.png' | relative_url }}" alt="">
+  </div>
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="wrap hero__inner">
+    <p class="eyebrow">Off-road multimodal dataset</p>
+    <h1>The Great Outdoors Dataset</h1>
+    <p class="hero__lead">A multimodal perception dataset for autonomous navigation in unstructured outdoor terrain, combining LiDAR, RGB imagery, thermal imaging, radar, INS, and RTK GPS with semantic annotations.</p>
+    <div class="hero__actions">
+      <a class="button button--light" href="{{ '/download/' | relative_url }}">Download Dataset</a>
+      <a class="button button--ghost" href="{{ '/annotation/' | relative_url }}">Explore Ontology</a>
+    </div>
+    <div class="hero__stats" aria-label="Dataset highlights">
+      <div class="stat">
+        <strong>64</strong>
+        <span>channel Ouster LiDAR</span>
+      </div>
+      <div class="stat">
+        <strong>3</strong>
+        <span>RGB camera streams</span>
+      </div>
+      <div class="stat">
+        <strong>23</strong>
+        <span>semantic classes</span>
+      </div>
+      <div class="stat">
+        <strong>16</strong>
+        <span>raw ROS bag trajectories</span>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="partner-band">
+  <div class="wrap partner-grid">
+    <p>Developed by Texas A&amp;M University and DEVCOM Army Research Laboratory</p>
+    <div class="partner-logos">
+      <a href="https://www.tamu.edu/">
+        <img src="{{ '/images/tamu_logo.png' | relative_url }}" alt="Texas A&amp;M University">
+      </a>
+      <a href="https://www.arl.army.mil/">
+        <img src="{{ '/images/arl_logo.png' | relative_url }}" alt="DEVCOM Army Research Laboratory">
+      </a>
+    </div>
+  </div>
+</section>
 
-The Great Outdoors Dataset: Off-Road Multi-Modal Dataset is a comprehensive resource aimed at advancing autonomous navigation research in challenging off-road environments. Collected using an unmanned ground vehicle (UGV) designed for unstructured terrain, this dataset offers a rich combination of sensor data to support robust and safe navigation. The sensor setup includes a 64-channel LiDAR for detailed 3D point cloud generation, multiple RGB cameras for high-resolution visual capture, and a thermal camera for infrared imaging in low-visibility or night-time conditions. In addition, the dataset features data from an inertial navigation system (INS) that provides accurate motion and orientation measurements, a 2D mmWave radar for enhanced perception in adverse weather conditions, and an RTK GPS system for precise geolocation. The Great Outdoors Dataset places a strong emphasis on semantic scene understanding, addressing the gap in off-road autonomy research by offering multimodal data with annotated labels for 3D semantic segmentation. Unlike many existing datasets that focus on urban environments, this dataset is specifically tailored for off-road applications, providing a crucial resource for the development of advanced machine learning models and sensor fusion techniques. By building on the foundation of [RELLIS-3D](https://github.com/unmannedlab/RELLIS-3D), it is designed to push the boundaries of autonomous navigation in unstructured environments, enabling the development of algorithms that can effectively navigate and perceive the complex dynamics of off-road settings.
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Research focus</p>
+      <h2>Built for perception beyond paved roads.</h2>
+      <p class="lead">The Great Outdoors Dataset supports robust autonomy research in complex off-road environments where terrain, lighting, vegetation, and surface conditions vary constantly.</p>
+      <p>Collected with an unmanned ground vehicle designed for unstructured terrain, the dataset brings together high-density 3D point clouds, high-resolution RGB imagery, long-wave infrared imaging, radar, inertial navigation, and precise geolocation. It extends the foundation of <a href="https://github.com/unmannedlab/RELLIS-3D">RELLIS-3D</a> with additional terrain and object categories for outdoor autonomy.</p>
+    </div>
+    <div class="metric-grid">
+      <div class="card metric">
+        <strong>LiDAR</strong>
+        <span>Detailed point clouds for geometry, mapping, and 3D semantic segmentation.</span>
+      </div>
+      <div class="card metric">
+        <strong>RGB</strong>
+        <span>Multiple color camera views for visual perception and sensor fusion.</span>
+      </div>
+      <div class="card metric">
+        <strong>LWIR</strong>
+        <span>Thermal imagery for low-light and adverse visibility conditions.</span>
+      </div>
+      <div class="card metric">
+        <strong>Radar</strong>
+        <span>2D mmWave radar data for complementary perception in challenging weather.</span>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="section section--paper">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Dataset preview</p>
+        <h2>Multimodal scenes with semantic structure.</h2>
+      </div>
+      <p>The data is tailored for machine learning models that need to understand vegetation, trails, mud, rubble, water, barriers, vehicles, and other off-road scene elements.</p>
+    </div>
+    <figure class="image-frame">
+      <img src="{{ '/images/dataset_overview.png' | relative_url }}" alt="Examples of synchronized data from the Great Outdoors Dataset">
+      <figcaption class="caption">Example synchronized views from the dataset.</figcaption>
+    </figure>
+  </div>
+</section>
 
-![LiDAR Scans Statics](./images/GOD_image.png)
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Why it matters</p>
+        <h2>A practical benchmark for off-road autonomy.</h2>
+      </div>
+      <p>Urban datasets rarely capture the perception problems found in unstructured terrain. This dataset is organized around those harder outdoor conditions.</p>
+    </div>
+    <div class="feature-grid">
+      <div class="card feature">
+        <div class="feature-accent"></div>
+        <h3>Sensor fusion</h3>
+        <p>Combine LiDAR, camera, thermal, radar, INS, and RTK GPS data for multimodal perception pipelines.</p>
+      </div>
+      <div class="card feature">
+        <div class="feature-accent"></div>
+        <h3>Semantic understanding</h3>
+        <p>Train and evaluate models across terrain, vegetation, people, objects, vehicles, structures, and void regions.</p>
+      </div>
+      <div class="card feature">
+        <div class="feature-accent"></div>
+        <h3>Outdoor complexity</h3>
+        <p>Work with unstructured scenes that include gravel, mulch, mud, puddles, rubble, grass, trees, and water.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-### Collaborators:
-- [Texas A&M University](https://www.tamu.edu/): Peng Jiang, Kasi Viswanath, Akhil Nagariya, George Chustz, Srikanth Saripalli 
-- [CCDC Army Research Laboratory](https://www.arl.army.mil/) Maggie Wigness, Philip Osteen, Tim Overbye, Christian Ellis, Long Quang
+<section class="section section--paper">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Citation</p>
+        <h2>Cite the dataset.</h2>
+      </div>
+      <p>Please cite the Great Outdoors Dataset paper if this data supports your research.</p>
+    </div>
+    <div class="card citation-card">
+<pre>@misc{jiang2025gogreatoutdoorsmultimodal,
+  title={GO: The Great Outdoors Multimodal Dataset},
+  author={Peng Jiang and Kasi Viswanath and Akhil Nagariya and George Chustz and Maggie Wigness and Philip Osteen and Timothy Overbye and Christian Ellis and Long Quang and Srikanth Saripalli},
+  year={2025},
+  eprint={2501.19274},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2501.19274},
+}</pre>
+    </div>
+  </div>
+</section>
 
-### License
-All datasets and code on this page are copyrighted by us and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. 
+<section class="section section--paper">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Collaborators</p>
+        <h2>Research contributors.</h2>
+      </div>
+    </div>
+    <div class="collab-list">
+      <div class="card collab">
+        <h3><a href="https://www.tamu.edu/">Texas A&amp;M University</a></h3>
+        <p>Peng Jiang, Kasi Viswanath, Akhil Nagariya, George Chustz, Srikanth Saripalli</p>
+      </div>
+      <div class="card collab">
+        <h3><a href="https://www.arl.army.mil/">CCDC Army Research Laboratory</a></h3>
+        <p>Maggie Wigness, Philip Osteen, Tim Overbye, Christian Ellis, Long Quang</p>
+      </div>
+    </div>
+    <p class="license-note">All datasets and code on this page are copyrighted by the authors and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.</p>
+  </div>
+</section>

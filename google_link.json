@@ -1,0 +1,78 @@
+{
+    "bags":[
+  {
+    "name": "tamu_full_high_speed_run_1_2024-04-23-15-46-20.bag",
+    "link": "https://drive.google.com/file/d/1609BrohNMccx2uqVzzjC3GSh0r9NajBM/view?usp=drive_link"
+  },
+  {
+    "name": "tamu_full_stack_morning_run_1_2024-04-24-08-30-42.bag",
+    "link": "https://drive.google.com/file/d/1CXmHX61njEUhmRBZ1nQ_798o6kviDRta/view?usp=drive_link"
+  },
+  {
+    "name": "tamu_full_stack_morning_run_2_2024-04-24-08-46-21.bag",
+    "link": "https://drive.google.com/file/d/1-nkJ65sYhyAKYS4T9GmpbZYtnbW2Tieb/view?usp=drive_link"
+  },
+  {
+    "name": "tamu_full_stack_ravine_run_1_2024-04-23-12-21-36.bag",
+    "link": "https://drive.google.com/file/d/1dX5tDmbPaDD1zqhbifS_W41KN29oTORq/view?usp=drive_link"
+  },
+  {
+    "name": "tamu_full_stack_route_1_run_2_2024-04-23-10-27-20.bag",
+    "link": "https://drive.google.com/file/d/1a6ZUPgmNC1UkBISXdWQXVktnCAEUt4-5/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-23-11-44-47.bag",
+    "link": "https://drive.google.com/file/d/1DnlHM0gBaXsVSXpLhgYeCKYOcRjuHkBh/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-23-12-37-23.bag",
+    "link": "https://drive.google.com/file/d/1IkNbZnu8WRaM41K9LneI7obd5r7RQMHD/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-23-12-43-56.bag",
+    "link": "https://drive.google.com/file/d/1mM1MaU_FbtOgnOgPt8c0rxIeDYrUpq6o/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-23-16-57-14.bag",
+    "link": "https://drive.google.com/file/d/1vgIqpSPnvd-eoPEKLYlcioNDlK5dJBO1/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-23-17-19-16.bag",
+    "link": "https://drive.google.com/file/d/1piAgZsgz3XjvBzHSlPJ3rVmc815EML7V/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-24-09-44-24_newcal.bag",
+    "link": "https://drive.google.com/file/d/17ktBuuFHRcVtO69ox2zCDuDlj9Od2igh/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-24-10-02-23_newcal.bag",
+    "link": "https://drive.google.com/file/d/1ZbI6u4ewPNK7709X7nAVmoCwfv3lb1hv/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-24-10-42-36_newcal.bag",
+    "link": "https://drive.google.com/file/d/1qlGjFenEoXRKXIm6-0w9XRefIRavMWUg/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-24-12-01-38_newcal.bag",
+    "link": "https://drive.google.com/file/d/1wjVojkr3fWL_vJYBZXZWTF6w6nlPhp91/view?usp=drive_link"
+  },
+  {
+    "name": "2025-01-24-13-07-50_newcal.bag",
+    "link": "https://drive.google.com/file/d/1fb85bJM3pGi8X022zui68ElKp_huvIB2/view?usp=drive_link"
+  }
+],
+    "annotations":[
+  {
+    "name": "go_rgb_segmentation.zip",
+    "link": "https://drive.google.com/file/d/1S5kNhSlOlikyaN6_ooWUGdD0YK7sVE9l/view?usp=drive_link"
+  },
+  {
+    "name": "go_rgb_caption.zip",
+    "link": "https://drive.google.com/file/d/1XbGxvHxoV6I4qJMAUL7cqrG7PSeElrVH/view?usp=drive_link"
+  },
+  {
+    "name": "go_lwir_segmentation.zip",
+    "link": "https://drive.google.com/file/d/1SM6nif5QKQOTzdNrRVPSvRNV97a_tkl-/view?usp=drive_link"
+  }      
+  ]
+}

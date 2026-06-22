@@ -1,0 +1,23 @@
+Trajectory map report generated at 2026-06-22T00:17:12.396578+00:00
+trajectories: 17
+total length m: 34179.06
+trajectories with problems: 0
+combined label fallbacks: 0
+
+2025-01-23-11-44-47.bag: points=5667, length_m=1633.92, problems=none
+2025-01-23-12-37-23.bag: points=1208, length_m=853.32, problems=none
+2025-01-23-12-43-56.bag: points=1643, length_m=952.44, problems=none
+2025-01-23-16-57-14.bag: points=4683, length_m=2608.65, problems=none
+2025-01-23-17-19-16.bag: points=3314, length_m=2608.73, problems=none
+2025-01-24-09-44-24_newcal.bag: points=3167, length_m=2031.07, problems=none
+2025-01-24-10-02-23_newcal.bag: points=4294, length_m=2736.74, problems=none
+2025-01-24-10-24-27.bag: points=3756, length_m=2577.10, problems=none
+2025-01-24-10-42-36_newcal.bag: points=3311, length_m=2613.81, problems=none
+2025-01-24-12-01-38_newcal.bag: points=5859, length_m=1642.31, problems=none
+2025-01-24-13-07-50_newcal.bag: points=1144, length_m=855.45, problems=none
+tamu_full_high_speed_run_1_2024-04-23-15-46-20.bag: points=825, length_m=569.70, problems=none
+tamu_full_stack_morning_run_1_2024-04-24-08-30-42.bag: points=3127, length_m=2342.72, problems=none
+tamu_full_stack_morning_run_2_2024-04-24-08-46-21.bag: points=4233, length_m=2843.01, problems=none
+tamu_full_stack_ravine_run_1_2024-04-23-12-21-36.bag: points=8018, length_m=1853.64, problems=none
+tamu_full_stack_route_1_run_2_2024-04-23-10-27-20.bag: points=7407, length_m=2780.43, problems=none
+tamu_route1_morning_2024-04-23-08-24-52.bag: points=7485, length_m=2676.04, problems=none

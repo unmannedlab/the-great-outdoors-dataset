@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap nav-wrap">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>{{ site.title }}</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Overview</a>
+          <a href="{{ '/platform/' | relative_url }}" {% if page.url contains '/platform' %}aria-current="page"{% endif %}>Platform</a>
+          <a href="{{ '/annotation/' | relative_url }}" {% if page.url contains '/annotation' %}aria-current="page"{% endif %}>Annotation</a>
+          <a href="{{ '/download/' | relative_url }}" {% if page.url contains '/download' %}aria-current="page"{% endif %}>Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <strong>{{ site.title }}</strong>
+          <p>Off-road multimodal data for perception, mapping, and autonomous navigation research.</p>
+        </div>
+        <div class="footer-links" aria-label="Footer links">
+          <a href="{{ '/download/' | relative_url }}">Dataset Downloads</a>
+          <a href="{{ '/annotation/' | relative_url }}">Ontology</a>
+          <a href="https://github.com/unmannedlab/RELLIS-3D">RELLIS-3D</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

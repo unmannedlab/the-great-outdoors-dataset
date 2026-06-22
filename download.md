@@ -1,91 +1,233 @@
 ---
 layout: default
 title: Download
+permalink: /download/
 ---
 
-## Folder structure
+<section class="page-hero">
+  <div class="wrap page-hero__grid">
+    <div>
+      <p class="eyebrow">Dataset access</p>
+      <h1>Download synchronized sensor data and annotations.</h1>
+      <p>Use the links below to access current annotation packages, raw ROS bags, trajectory previews, and the ontology definition.</p>
+    </div>
+  </div>
+</section>
 
-<pre>
-The Great Outdoors Dataset
-├── pt_test.lst
-├── pt_val.lst
-├── pt_train.lst
-├── 00000
-      ├── os1_cloud_node_kitti_bin/             -- directory containing ".bin" files with Ouster 64-Channels point clouds.  
-      ├── nav_radar_node/       -- directory containing radar polar images.
-      ├── pylon_camera_node/    -- directory containing ".png" files from the color camera.  
-      ├── pylon_camera_node_label_color -- color image lable
-      ├── pylon_camera_node_label_id -- id image lable
-      ├──  lwir_camera_node/    -- directory containing ".png" files from the thermal camera.  
-      ├── lwir_camera_node_label_color -- color image lable
-      ├── lwir_camera_node_label_id -- id image lable
-      └── poses.txt             -- file containing the poses of every scan.
-</pre>
+<section class="section section--notice">
+  <div class="wrap">
+    <div class="notice">
+      <strong>Known issue:</strong> The 2024 dataset contains partial LiDAR data loss.
+    </div>
+  </div>
+</section>
 
-## Ontology Download: 
-- **Ontology Definition** ([Ontology](./images/GOD_Ontology.png))
+<section class="section section--paper">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Curated downloads</p>
+        <h2>Modality-specific packages.</h2>
+      </div>
+      <p>Download only the released annotation package you need, then use the raw ROS bag table for full sensor replay.</p>
+    </div>
+    <div class="download-grid download-grid--compact">
+      <article class="card download-card">
+        <span class="tag">Ontology</span>
+        <h3>Ontology Definition</h3>
+        <p>Semantic class ontology for interpreting labels and semantic categories.</p>
+        <a class="button" href="{{ '/images/go_semantic.svg' | relative_url }}">Open Ontology</a>
+      </article>
+      <article class="card download-card">
+        <span class="tag">RGB labels</span>
+        <h3>RGB Segmentation</h3>
+        <p>RGB semantic segmentation package for the released image set.</p>
+        <a class="button" href="https://drive.google.com/file/d/1S5kNhSlOlikyaN6_ooWUGdD0YK7sVE9l/view?usp=drive_link">Download</a>
+      </article>
+      <article class="card download-card">
+        <span class="tag">Captions</span>
+        <h3>RGB Captions</h3>
+        <p>Caption annotations for RGB frames.</p>
+        <a class="button" href="https://drive.google.com/file/d/1XbGxvHxoV6I4qJMAUL7cqrG7PSeElrVH/view?usp=drive_link">Download</a>
+      </article>
+      <article class="card download-card">
+        <span class="tag">Thermal labels</span>
+        <h3>LWIR Segmentation</h3>
+        <p>Long-wave infrared semantic segmentation package.</p>
+        <a class="button" href="https://drive.google.com/file/d/1SM6nif5QKQOTzdNrRVPSvRNV97a_tkl-/view?usp=drive_link">Download</a>
+      </article>
+    </div>
+  </div>
+</section>
 
-## RGB Image Download: 
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Raw sequences</p>
+        <h2>ROS bag downloads with trajectory previews.</h2>
+      </div>
+      <p>Each bag contains the original synchronized sensor topics. Use the trajectory maps to select the route before downloading the raw data.</p>
+    </div>
 
-- **Image with Annotation Examples** ([Download](https://drive.google.com/file/d/1oi5KpBYXefvMpiUzrVE1BWcPfmMieTdx/view?usp=sharing))
+    <div class="trajectory-overview">
+      <figure class="image-frame trajectory-overview__map">
+        <a href="{{ '/images/gps_trajectory_maps/combined/all_bags_trajectory.html' | relative_url }}">
+          <img src="{{ '/images/gps_trajectory_maps/combined/all_bags_trajectory.png' | relative_url }}" alt="Combined GPS trajectories for all raw ROS bags">
+        </a>
+        <figcaption class="caption">Combined trajectory map for all recorded bags.</figcaption>
+      </figure>
+      <div class="trajectory-overview__stats">
+        <div class="card metric">
+          <strong>{{ site.data.trajectories | size }}</strong>
+          <span>trajectory maps</span>
+        </div>
+        <div class="card metric">
+          <strong>34.18 km</strong>
+          <span>total recorded route length</span>
+        </div>
+        <div class="card metric">
+          <strong>0</strong>
+          <span>flagged GPS trajectory problems</span>
+        </div>
+        <a class="button" href="{{ '/images/gps_trajectory_maps/combined/all_bags_trajectory.html' | relative_url }}">Open Interactive Map</a>
+      </div>
+    </div>
 
-- **Full Images** ([Download](https://drive.google.com/file/d/1Y_XHZw6BeuqwD280K7xw4eapNRpSKXA5/view?usp=sharing))
+    <div class="trajectory-year">
+      <div class="trajectory-year__head">
+        <h3>2025 ROS Bags</h3>
+        <p>January 2025 collection sequences.</p>
+      </div>
+      <div class="trajectory-grid">
+        {% for trajectory in site.data.trajectories %}
+        {% if trajectory.name contains '2025-' %}
+      <article class="card trajectory-card">
+        <a class="trajectory-card__map" href="{{ trajectory.map_html | relative_url }}" aria-label="Open interactive trajectory map for {{ trajectory.name }}">
+          <img src="{{ trajectory.map_png | relative_url }}" alt="GPS trajectory map for {{ trajectory.name }}" loading="lazy">
+        </a>
+        <div class="trajectory-card__body">
+          <span class="tag">ROS bag</span>
+          <h3>{{ trajectory.name }}</h3>
+          <dl class="trajectory-meta">
+            <div>
+              <dt>Length</dt>
+              <dd>{{ trajectory.length_km }} km</dd>
+            </div>
+            <div>
+              <dt>Duration</dt>
+              <dd>{{ trajectory.duration_min }} min</dd>
+            </div>
+            <div>
+              <dt>GPS points</dt>
+              <dd>{{ trajectory.point_count }}</dd>
+            </div>
+          </dl>
+          <div class="button-row">
+            {% if trajectory.download_url %}
+            <a class="button" href="{{ trajectory.download_url }}">Download Bag</a>
+            {% else %}
+            <span class="button button--disabled" aria-disabled="true">No Bag Link</span>
+            {% endif %}
+            <a class="button button--quiet" href="{{ trajectory.map_html | relative_url }}">Open Map</a>
+          </div>
+        </div>
+      </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
 
-- **Full Image Annotations Color Format** ([Download](https://drive.google.com/file/d/1qc4J1DgiWU0MsUhUhyX0p8sQROoVb4uZ/view?usp=sharing))
+    <div class="trajectory-year">
+      <div class="trajectory-year__head">
+        <h3>2024 ROS Bags</h3>
+        <p>April 2024 collection sequences. Known issue: The 2024 dataset contains partial LiDAR data loss.</p>
+      </div>
+      <div class="trajectory-grid">
+        {% for trajectory in site.data.trajectories %}
+        {% if trajectory.name contains '2024-' %}
+      <article class="card trajectory-card">
+        <a class="trajectory-card__map" href="{{ trajectory.map_html | relative_url }}" aria-label="Open interactive trajectory map for {{ trajectory.name }}">
+          <img src="{{ trajectory.map_png | relative_url }}" alt="GPS trajectory map for {{ trajectory.name }}" loading="lazy">
+        </a>
+        <div class="trajectory-card__body">
+          <span class="tag">ROS bag</span>
+          <h3>{{ trajectory.name }}</h3>
+          <dl class="trajectory-meta">
+            <div>
+              <dt>Length</dt>
+              <dd>{{ trajectory.length_km }} km</dd>
+            </div>
+            <div>
+              <dt>Duration</dt>
+              <dd>{{ trajectory.duration_min }} min</dd>
+            </div>
+            <div>
+              <dt>GPS points</dt>
+              <dd>{{ trajectory.point_count }}</dd>
+            </div>
+          </dl>
+          <div class="button-row">
+            {% if trajectory.download_url %}
+            <a class="button" href="{{ trajectory.download_url }}">Download Bag</a>
+            {% else %}
+            <span class="button button--disabled" aria-disabled="true">No Bag Link</span>
+            {% endif %}
+            <a class="button button--quiet" href="{{ trajectory.map_html | relative_url }}">Open Map</a>
+          </div>
+        </div>
+      </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
 
-- **Full Image Annotations ID Format** ([Download](https://drive.google.com/file/d/1VehRXZ_Bw4DolGVvqVk4qr_pmbUXYgQA/view?usp=sharing))
-
-## Thermal Image Download: 
-
-- **Full Images** ([Download](https://drive.google.com/file/d/1kTwL7O_v4Qc8WpzpT7416VXgENYm1ZK-/view?usp=sharing))
-
-- **Full Image Annotations Color Format** ([Download](https://drive.google.com/file/d/1g6Hf7-wg3JqQMDufhpHCyGK-cPrkQ7Ck/view?usp=sharing))
-
-- **Full Image Annotations ID Format** ([Download](https://drive.google.com/file/d/1u_cRN-SkU2b_M5pWCRU0rL4_RkCTUTsA/view?usp=sharing))
-
-## LiDAR Data
-- **Synced LiDAR Pointcloud Semantic-KITTI** ([Download]())
-
-## RADAR Data
-- **Synced RADAR Polar Images** ([Download](https://drive.google.com/file/d/1KC56g3GriVsIA5rkKCFA7mqBWeuZL9PQ/view?usp=sharing))
-
-## Calibration Download: 
-- **Camera Instrinsic** ([Download 2KB](https://drive.google.com/file/d/1I489hMmcnly5gwao6YC2I0wnOcL8W96w/view?usp=sharing))
-
-- **RGB Cameras to Ouster LiDAR** ([Download 3KB](https://drive.google.com/file/d/1JZPWwZa7wA6mN_Qv8ze7_535D-xo8Zex/view?usp=sharing))
-
-- **Boson Thermal to RGB camera** ([Download 3KB](https://drive.google.com/file/d/1bal8q-ytdc8od2wV9nXW9-fKIPbGuNau/view?usp=sharing))
-
-
-## ROS Bag Raw Data
-The following is the link to the rosbag.([Download](https://drive.google.com/file/d/1aze9xgbN1ID-9CW4U3CJtYi6ChBmaKGO/view?usp=sharing))
-
-Data included in raw ROS bagfiles:
-
-Topic Name | Message Tpye | Message Descriptison
------------- | ------------- | ---------------------------------
-/Navtech/FFTData | nav_ross/HighPrecisionFFTData | Radar FFT data
-/lester/imu/data | sensor_msgs/Imu | Filtered imu data from embeded imu of Warthog
-/lester/imu/data_raw | sensor_msgs/Imu |  Raw imu data from embeded imu of Warthog
-/img_node/intensity_image | sensor_msgs/Image | Intensity image generated by ouster Lidar
-/lester/imu/mag | sensor_msgs/MagneticField | Raw magnetic field data from embeded imu of Warthog
-/lester/lidar_points | sensor_msgs/PointCloud2 | Point cloud data from Ouster Lidar
-/lester/ouster_center/imu | sensor_msgs/Imu | Raw imu data from embeded imu of Ouster Lidar
-/lester/lidar_points_center | sensor_msgs/PointCloud2 | Centered point cloud data from Ouster Lidar
-/lester/lwir_front/camera_info | sensor_msgs/CameraInfo | Intrinsics of thermal camera 
-/lester/lwir_front/image_rect/compressed | sensor_msgs/CompressedImage | sensor_msgs/Imu | Raw imu data from embeded imu of Ouster Lidar
-/lester/stereo_left/camera_info | sensor_msgs/CameraInfo
-/lester/stereo_left/image_rect_color/compressed | sensor_msgs/CompressedImage | Image from left RGB camera
-/lester/stereo_right/camera_info | sensor_msgs/CameraInfo
-/lester/stereo_right/image_rect_color/compressed | sensor_msgs/CompressedImage | Image from right RGB camera
-/lester/rear_center/camera_info | sensor_msgs/CameraInfo
-/lester/rear_center/image_rect_color/compressed | sensor_msgs/CompressedImage | Image from rear RGB camera
-/lester/ublox/fix | sensor_msgs/NavSatFix | INS data from ublox
-lester/right_drive/status/battery_current | std_msgs/Float64 | 
-lester/right_drive/status/battery_voltage | std_msgs/Float64 |
-lester/left_drive/status/battery_current | std_msgs/Float64 | 
-lester/left_drive/status/battery_voltage | std_msgs/Float64 |
-/lester/rc_teleop/cmd_vel | geometry_msgs/Twist | RC input to warthog
-/tf | tf2_msgs/TFMessage |
-/tf_static  | tf2_msgs/TFMessage
-
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">ROS topics</p>
+        <h2>Raw bag contents.</h2>
+      </div>
+      <p>The raw ROS bag includes navigation, imaging, radar, LiDAR, command, and transform topics.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Topic name</th>
+            <th>Message type</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>/Navtech/FFTData</td><td>nav_ross/HighPrecisionFFTData</td><td>Radar FFT data</td></tr>
+          <tr><td>/lester/imu/data</td><td>sensor_msgs/Imu</td><td>Filtered IMU data from the embedded Warthog IMU</td></tr>
+          <tr><td>/lester/imu/data_raw</td><td>sensor_msgs/Imu</td><td>Raw IMU data from the embedded Warthog IMU</td></tr>
+          <tr><td>/img_node/intensity_image</td><td>sensor_msgs/Image</td><td>Intensity image generated by the Ouster LiDAR</td></tr>
+          <tr><td>/lester/imu/mag</td><td>sensor_msgs/MagneticField</td><td>Raw magnetic field data from the embedded Warthog IMU</td></tr>
+          <tr><td>/lester/lidar_points</td><td>sensor_msgs/PointCloud2</td><td>Point cloud data from the Ouster LiDAR</td></tr>
+          <tr><td>/lester/ouster_center/imu</td><td>sensor_msgs/Imu</td><td>Raw IMU data from the embedded Ouster LiDAR IMU</td></tr>
+          <tr><td>/lester/lwir_front/camera_info</td><td>sensor_msgs/CameraInfo</td><td>Intrinsics of the thermal camera</td></tr>
+          <tr><td>/lester/lwir_front/image_rect/compressed</td><td>sensor_msgs/CompressedImage</td><td>Compressed thermal image stream</td></tr>
+          <tr><td>/lester/stereo_left/camera_info</td><td>sensor_msgs/CameraInfo</td><td>Left RGB camera intrinsics</td></tr>
+          <tr><td>/lester/stereo_left/image_rect_color/compressed</td><td>sensor_msgs/CompressedImage</td><td>Compressed image stream from the left RGB camera</td></tr>
+          <tr><td>/lester/stereo_right/camera_info</td><td>sensor_msgs/CameraInfo</td><td>Right RGB camera intrinsics</td></tr>
+          <tr><td>/lester/stereo_right/image_rect_color/compressed</td><td>sensor_msgs/CompressedImage</td><td>Compressed image stream from the right RGB camera</td></tr>
+          <tr><td>/lester/rear_center/camera_info</td><td>sensor_msgs/CameraInfo</td><td>Rear center RGB camera intrinsics</td></tr>
+          <tr><td>/lester/rear_center/image_rect_color/compressed</td><td>sensor_msgs/CompressedImage</td><td>Compressed image stream from the rear RGB camera</td></tr>
+          <tr><td>/lester/ublox/fix</td><td>sensor_msgs/NavSatFix</td><td>INS data from u-blox</td></tr>
+          <tr><td>/lester/right_drive/status/battery_current</td><td>std_msgs/Float64</td><td>Right drive battery current</td></tr>
+          <tr><td>/lester/right_drive/status/battery_voltage</td><td>std_msgs/Float64</td><td>Right drive battery voltage</td></tr>
+          <tr><td>/lester/left_drive/status/battery_current</td><td>std_msgs/Float64</td><td>Left drive battery current</td></tr>
+          <tr><td>/lester/left_drive/status/battery_voltage</td><td>std_msgs/Float64</td><td>Left drive battery voltage</td></tr>
+          <tr><td>/lester/rc_teleop/cmd_vel</td><td>geometry_msgs/Twist</td><td>RC input command to the Warthog</td></tr>
+          <tr><td>/tf</td><td>tf2_msgs/TFMessage</td><td>Dynamic transforms</td></tr>
+          <tr><td>/tf_static</td><td>tf2_msgs/TFMessage</td><td>Static transforms</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

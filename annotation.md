@@ -1,11 +1,83 @@
 ---
 layout: default
 title: Annotation
+permalink: /annotation/
 ---
 
-## Annotated Data:
-To provide multi-modal data for enhancing autonomous off-road navigation, we developed an ontology of object and terrain classes that extends the foundation of the [RELLIS-3D dataset](https://github.com/unmannedlab/RELLIS-3D), while incorporating additional terrain and object categories specific to our dataset. Notably, our sequences introduce new classes such as gravel and mulch, which were absent in RELLIS-3D. Overall, the dataset encompasses 22 distinct classes, including **trees, grass, dirt, sky, gravel, bush, mulch, water, poles, fences, persons, buildings, objects, vehicles, barriers, mud, concrete, puddles, rubble, asphalt, and a void class**. This expanded ontology provides a more comprehensive understanding of off-road environments, offering enriched data for advanced semantic segmentation and improved performance in challenging, unstructured terrains.
+<section class="page-hero">
+  <div class="wrap page-hero__grid">
+    <div>
+      <p class="eyebrow">Semantic annotation</p>
+      <h1>An ontology for off-road scene understanding.</h1>
+      <p>The annotation taxonomy extends the foundation of the RELLIS-3D dataset with terrain and object classes that appear frequently in the Great Outdoors sequences, including gravel and mulch.</p>
+      <a class="button" href="{{ '/images/go_semantic.svg' | relative_url }}">Open Ontology Image</a>
+    </div>
+    <figure class="image-frame">
+      <img src="{{ '/images/go_semantic.svg' | relative_url }}" alt="Great Outdoors Dataset ontology">
+      <figcaption class="caption">Ontology definition for dataset labels.</figcaption>
+    </figure>
+  </div>
+</section>
 
-### Images Statics:
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Label set</p>
+        <h2>Twenty-two classes for terrain, objects, and void regions.</h2>
+      </div>
+      <p>The classes cover vegetation, traversable and non-traversable terrain, structures, agents, vehicles, obstacles, and unlabeled areas for semantic segmentation research.</p>
+    </div>
+    <ul class="class-grid" aria-label="Semantic classes">
+      <li>Void</li>
+      <li>Dirt</li>
+      <li>Grass</li>
+      <li>Trees</li>
+      <li>Pole</li>
+      <li>Water</li>
+      <li>Sky</li>
+      <li>Vehicle</li>
+      <li>Object</li>
+      <li>Asphalt</li>
+      <li>Building</li>
+      <li>Log</li>
+      <li>Person</li>
+      <li>Fence</li>
+      <li>Bush</li>
+      <li>Concrete</li>
+      <li>Barrier</li>
+      <li>Puddle</li>
+      <li>Mud</li>
+      <li>Rubble</li>
+      <li>Mulch</li>
+      <li>Gravel</li>
+      <li>Snow</li>
+    </ul>
+  </div>
+</section>
 
-![Images Statics](./images/God_stat.png)
+<section class="section section--paper">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Statistics</p>
+        <h2>Class distribution and annotation examples.</h2>
+      </div>
+      <p>These visual summaries help researchers understand the semantic distribution before training or evaluating models.</p>
+    </div>
+    <div class="figure-grid">
+      <figure class="image-frame">
+        <img src="{{ '/images/annotation_availability.png' | relative_url }}" alt="Annotation availability statistics">
+        <figcaption class="caption">Annotation availability statistics.</figcaption>
+      </figure>
+      <figure class="image-frame">
+        <img src="{{ '/images/class_distribution_image_count.png' | relative_url }}" alt="Image class distribution">
+        <figcaption class="caption">Image label distribution.</figcaption>
+      </figure>
+      <figure class="image-frame">
+        <img src="{{ '/images/class_distribution_pixel_count.png' | relative_url }}" alt="Pixel class distribution">
+        <figcaption class="caption">Pixel label distribution.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>

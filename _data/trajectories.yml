@@ -1,0 +1,129 @@
+---
+- name: 2025-01-23-11-44-47.bag
+  label: 2025-01-23-11-44-47
+  download_url: https://drive.google.com/file/d/1DnlHM0gBaXsVSXpLhgYeCKYOcRjuHkBh/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-23-11-44-47_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-23-11-44-47_trajectory.html
+  length_km: 1.63
+  duration_min: 23.6
+  point_count: 5667
+- name: 2025-01-23-12-37-23.bag
+  label: 2025-01-23-12-37-23
+  download_url: https://drive.google.com/file/d/1IkNbZnu8WRaM41K9LneI7obd5r7RQMHD/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-23-12-37-23_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-23-12-37-23_trajectory.html
+  length_km: 0.85
+  duration_min: 5.0
+  point_count: 1208
+- name: 2025-01-23-12-43-56.bag
+  label: 2025-01-23-12-43-56
+  download_url: https://drive.google.com/file/d/1mM1MaU_FbtOgnOgPt8c0rxIeDYrUpq6o/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-23-12-43-56_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-23-12-43-56_trajectory.html
+  length_km: 0.95
+  duration_min: 6.8
+  point_count: 1643
+- name: 2025-01-23-16-57-14.bag
+  label: 2025-01-23-16-57-14
+  download_url: https://drive.google.com/file/d/1vgIqpSPnvd-eoPEKLYlcioNDlK5dJBO1/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-23-16-57-14_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-23-16-57-14_trajectory.html
+  length_km: 2.61
+  duration_min: 19.5
+  point_count: 4683
+- name: 2025-01-23-17-19-16.bag
+  label: 2025-01-23-17-19-16
+  download_url: https://drive.google.com/file/d/1piAgZsgz3XjvBzHSlPJ3rVmc815EML7V/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-23-17-19-16_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-23-17-19-16_trajectory.html
+  length_km: 2.61
+  duration_min: 13.8
+  point_count: 3314
+- name: 2025-01-24-09-44-24_newcal.bag
+  label: 2025-01-24-09-44-24 newcal
+  download_url: https://drive.google.com/file/d/17ktBuuFHRcVtO69ox2zCDuDlj9Od2igh/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-24-09-44-24_newcal_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-24-09-44-24_newcal_trajectory.html
+  length_km: 2.03
+  duration_min: 13.2
+  point_count: 3167
+- name: 2025-01-24-10-02-23_newcal.bag
+  label: 2025-01-24-10-02-23 newcal
+  download_url: https://drive.google.com/file/d/1ZbI6u4ewPNK7709X7nAVmoCwfv3lb1hv/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-24-10-02-23_newcal_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-24-10-02-23_newcal_trajectory.html
+  length_km: 2.74
+  duration_min: 17.9
+  point_count: 4294
+- name: 2025-01-24-10-24-27.bag
+  label: 2025-01-24-10-24-27
+  download_url:
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-24-10-24-27_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-24-10-24-27_trajectory.html
+  length_km: 2.58
+  duration_min: 15.6
+  point_count: 3756
+- name: 2025-01-24-10-42-36_newcal.bag
+  label: 2025-01-24-10-42-36 newcal
+  download_url: https://drive.google.com/file/d/1qlGjFenEoXRKXIm6-0w9XRefIRavMWUg/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-24-10-42-36_newcal_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-24-10-42-36_newcal_trajectory.html
+  length_km: 2.61
+  duration_min: 13.8
+  point_count: 3311
+- name: 2025-01-24-12-01-38_newcal.bag
+  label: 2025-01-24-12-01-38 newcal
+  download_url: https://drive.google.com/file/d/1wjVojkr3fWL_vJYBZXZWTF6w6nlPhp91/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-24-12-01-38_newcal_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-24-12-01-38_newcal_trajectory.html
+  length_km: 1.64
+  duration_min: 24.4
+  point_count: 5859
+- name: 2025-01-24-13-07-50_newcal.bag
+  label: 2025-01-24-13-07-50 newcal
+  download_url: https://drive.google.com/file/d/1fb85bJM3pGi8X022zui68ElKp_huvIB2/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/2025-01-24-13-07-50_newcal_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/2025-01-24-13-07-50_newcal_trajectory.html
+  length_km: 0.86
+  duration_min: 4.8
+  point_count: 1144
+- name: tamu_full_high_speed_run_1_2024-04-23-15-46-20.bag
+  label: tamu full high speed run 1 2024-04-23-15-46-20
+  download_url: https://drive.google.com/file/d/1609BrohNMccx2uqVzzjC3GSh0r9NajBM/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/tamu_full_high_speed_run_1_2024-04-23-15-46-20_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/tamu_full_high_speed_run_1_2024-04-23-15-46-20_trajectory.html
+  length_km: 0.57
+  duration_min: 3.4
+  point_count: 825
+- name: tamu_full_stack_morning_run_1_2024-04-24-08-30-42.bag
+  label: tamu full stack morning run 1 2024-04-24-08-30-42
+  download_url: https://drive.google.com/file/d/1CXmHX61njEUhmRBZ1nQ_798o6kviDRta/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/tamu_full_stack_morning_run_1_2024-04-24-08-30-42_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/tamu_full_stack_morning_run_1_2024-04-24-08-30-42_trajectory.html
+  length_km: 2.34
+  duration_min: 13.0
+  point_count: 3127
+- name: tamu_full_stack_morning_run_2_2024-04-24-08-46-21.bag
+  label: tamu full stack morning run 2 2024-04-24-08-46-21
+  download_url: https://drive.google.com/file/d/1-nkJ65sYhyAKYS4T9GmpbZYtnbW2Tieb/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/tamu_full_stack_morning_run_2_2024-04-24-08-46-21_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/tamu_full_stack_morning_run_2_2024-04-24-08-46-21_trajectory.html
+  length_km: 2.84
+  duration_min: 17.9
+  point_count: 4233
+- name: tamu_full_stack_ravine_run_1_2024-04-23-12-21-36.bag
+  label: tamu full stack ravine run 1 2024-04-23-12-21-36
+  download_url: https://drive.google.com/file/d/1dX5tDmbPaDD1zqhbifS_W41KN29oTORq/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/tamu_full_stack_ravine_run_1_2024-04-23-12-21-36_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/tamu_full_stack_ravine_run_1_2024-04-23-12-21-36_trajectory.html
+  length_km: 1.85
+  duration_min: 33.4
+  point_count: 8018
+- name: tamu_full_stack_route_1_run_2_2024-04-23-10-27-20.bag
+  label: tamu full stack route 1 run 2 2024-04-23-10-27-20
+  download_url: https://drive.google.com/file/d/1a6ZUPgmNC1UkBISXdWQXVktnCAEUt4-5/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/tamu_full_stack_route_1_run_2_2024-04-23-10-27-20_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/tamu_full_stack_route_1_run_2_2024-04-23-10-27-20_trajectory.html
+  length_km: 2.78
+  duration_min: 30.9
+  point_count: 7407
