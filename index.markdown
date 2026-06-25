@@ -138,7 +138,7 @@ permalink: /
     <div class="card citation-card">
 <pre>@misc{jiang2025gogreatoutdoorsmultimodal,
   title={GO: The Great Outdoors Multimodal Dataset},
-  author={Peng Jiang and Kasi Viswanath and Akhil Nagariya and George Chustz and Maggie Wigness and Philip Osteen and Timothy Overbye and Christian Ellis and Long Quang and Srikanth Saripalli},
+  author={Peng Jiang and Kasi Viswanath and Akhil Nagariya and George Chustz and Maggie Wigness and Philip Osteen and Timothy Overbye and Christian Ellis and Long Quang and Jia Huang and Srikanth Saripalli},
   year={2025},
   eprint={2501.19274},
   archivePrefix={arXiv},
@@ -160,10 +160,10 @@ permalink: /
     <div class="collab-list">
       <div class="card collab">
         <h3><a href="https://www.tamu.edu/">Texas A&amp;M University</a></h3>
-        <p>Peng Jiang, Kasi Viswanath, Akhil Nagariya, George Chustz, Srikanth Saripalli</p>
+        <p>Peng Jiang, Kasi Viswanath, Akhil Nagariya, George Chustz, Jia Huang, Srikanth Saripalli</p>
       </div>
       <div class="card collab">
-        <h3><a href="https://www.arl.army.mil/">CCDC Army Research Laboratory</a></h3>
+        <h3><a href="https://www.arl.army.mil/">DEVCOM Army Research Laboratory</a></h3>
         <p>Maggie Wigness, Philip Osteen, Tim Overbye, Christian Ellis, Long Quang</p>
       </div>
     </div>
