@@ -57,7 +57,7 @@
   point_count: 4294
 - name: 2025-01-24-10-24-27.bag
   label: 2025-01-24-10-24-27
-  download_url:
+  download_url: https://drive.google.com/file/d/1sveYnTHbjln9nY0z9tdHsdXJlHA608zR/view?usp=drive_link
   map_png: /images/gps_trajectory_maps/per_bag/2025-01-24-10-24-27_trajectory.png
   map_html: /images/gps_trajectory_maps/per_bag/2025-01-24-10-24-27_trajectory.html
   length_km: 2.58
@@ -127,3 +127,11 @@
   length_km: 2.78
   duration_min: 30.9
   point_count: 7407
+- name: route1_morning_2024-04-23-08-24-52.bag
+  label: route1 morning 2024-04-23-08-24-52
+  download_url: https://drive.google.com/file/d/1sj5XHC8OQ4ABZPTwhsh-zBXA-7KGLHDn/view?usp=drive_link
+  map_png: /images/gps_trajectory_maps/per_bag/tamu_route1_morning_2024-04-23-08-24-52_trajectory.png
+  map_html: /images/gps_trajectory_maps/per_bag/tamu_route1_morning_2024-04-23-08-24-52_trajectory.html
+  length_km: 2.68
+  duration_min: 31.2
+  point_count: 7485

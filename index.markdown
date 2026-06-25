@@ -31,7 +31,7 @@ permalink: /
         <span>semantic classes</span>
       </div>
       <div class="stat">
-        <strong>16</strong>
+        <strong>17</strong>
         <span>raw ROS bag trajectories</span>
       </div>
     </div>
