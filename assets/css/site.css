@@ -281,9 +281,9 @@ li + li {
 
 .hero__stats {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1rem;
-  max-width: 920px;
+  max-width: 1080px;
   margin-top: 3rem;
 }
 
@@ -305,6 +305,10 @@ li + li {
   margin-top: 0.3rem;
   color: rgba(255, 255, 255, 0.82);
   font-size: 0.86rem;
+}
+
+.stat--counter strong {
+  color: var(--sun);
 }
 
 .partner-band {
