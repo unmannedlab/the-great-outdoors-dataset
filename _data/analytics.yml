@@ -1,0 +1,35 @@
+---
+# GitHub Pages is static, so visitor counts and location aggregation must be
+# provided by a public, third-party endpoint. See README.md for setup steps.
+enabled: true
+provider: busuanzi
+
+# No-account visitor counter service for static sites. The layout loads this
+# script when provider is set to "busuanzi".
+busuanzi_script_url: "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+
+# Public GoatCounter site code, for example "great-outdoors-dataset" for
+# https://great-outdoors-dataset.goatcounter.com.
+goatcounter_code: ""
+
+# GoatCounter counter path. Use "TOTAL" for site-wide visits, or a path such as
+# "/" for the homepage.
+counter_path: "TOTAL"
+
+# Optional public analytics dashboard URL. Leave blank until you enable public
+# sharing in the analytics provider.
+dashboard_url: ""
+
+# Optional public JSON endpoint for aggregate country/region statistics.
+# The frontend accepts either:
+#   [{ "label": "United States", "value": 123 }]
+# or:
+#   { "countries": [{ "country": "United States", "visits": 123 }] }
+location_stats_url: ""
+location_limit: 6
+
+# Static fallback shown until a public aggregate endpoint is configured.
+location_stats:
+  - label: "Country/region stats"
+    value: "Setup pending"
+    detail: "Configure location_stats_url after enabling a public aggregate report."

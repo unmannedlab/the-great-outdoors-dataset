@@ -6,6 +6,12 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    {% assign analytics = site.data.analytics %}
+    {% if analytics.enabled and analytics.provider == 'goatcounter' and analytics.goatcounter_code and analytics.goatcounter_code != '' %}
+    <script data-goatcounter="https://{{ analytics.goatcounter_code }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    {% elsif analytics.enabled and analytics.provider == 'busuanzi' %}
+    <script async src="{{ analytics.busuanzi_script_url | default: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }}"></script>
+    {% endif %}
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
@@ -34,6 +40,12 @@
         <div>
           <strong>{{ site.title }}</strong>
           <p>Off-road multimodal data for perception, mapping, and autonomous navigation research.</p>
+          {% if analytics.enabled and analytics.provider == 'busuanzi' %}
+          <p class="visitor-counter" aria-label="Visitor counter">
+            <span id="busuanzi_container_site_pv">Total visits: <strong id="busuanzi_value_site_pv">...</strong></span>
+            <span id="busuanzi_container_site_uv">Visitors: <strong id="busuanzi_value_site_uv">...</strong></span>
+          </p>
+          {% endif %}
         </div>
         <div class="footer-links" aria-label="Footer links">
           <a href="{{ '/download/' | relative_url }}">Dataset Downloads</a>
@@ -42,5 +54,6 @@
         </div>
       </div>
     </footer>
+    <script src="{{ '/assets/js/analytics.js' | relative_url }}" defer></script>
   </body>
 </html>

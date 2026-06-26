@@ -52,6 +52,68 @@ permalink: /
   </div>
 </section>
 
+{% assign analytics = site.data.analytics %}
+<section class="section section--paper analytics-section" id="visitor-analytics" data-analytics-section data-location-stats-url="{{ analytics.location_stats_url | escape }}" data-location-limit="{{ analytics.location_limit | default: 6 }}">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Visitor analytics</p>
+        <h2>Public aggregate traffic signals.</h2>
+      </div>
+      <p>Privacy-friendly counts help the community understand dataset interest without exposing precise individual visitor activity.</p>
+    </div>
+    <div class="analytics-grid">
+      <article class="card analytics-card analytics-counter">
+        <span class="tag">Visits</span>
+        <h3>Total site visits</h3>
+        {% if analytics.enabled and analytics.provider == 'goatcounter' and analytics.goatcounter_code and analytics.goatcounter_code != '' %}
+        <img class="analytics-counter__image" src="https://{{ analytics.goatcounter_code }}.goatcounter.com/counter/{{ analytics.counter_path | default: 'TOTAL' }}.svg" alt="Total site visit counter">
+        <p>Displayed using the public GoatCounter counter endpoint.</p>
+        {% elsif analytics.enabled and analytics.provider == 'busuanzi' %}
+        <div class="analytics-counter__numbers" aria-label="Visitor counter">
+          <div>
+            <strong data-counter-copy="site_pv">...</strong>
+            <span>Total visits</span>
+          </div>
+          <div>
+            <strong data-counter-copy="site_uv">...</strong>
+            <span>Visitors</span>
+          </div>
+        </div>
+        <p>Displayed using a lightweight public visitor counter for static sites.</p>
+        {% else %}
+        <strong class="analytics-placeholder">Setup pending</strong>
+        <p>Configure <code>_data/analytics.yml</code> to show the live counter.</p>
+        {% endif %}
+      </article>
+      <article class="card analytics-card">
+        <span class="tag">Locations</span>
+        <h3>Aggregate visitor regions</h3>
+        <ul class="analytics-location-list" data-analytics-locations>
+          {% for stat in analytics.location_stats %}
+          <li>
+            <span>{{ stat.label }}</span>
+            <strong>{{ stat.value }}</strong>
+            {% if stat.detail %}<small>{{ stat.detail }}</small>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        <p class="analytics-note" data-analytics-status>Country or region statistics load only from a configured public aggregate endpoint.</p>
+      </article>
+      <article class="card analytics-card">
+        <span class="tag">Privacy</span>
+        <h3>Static-site friendly</h3>
+        <p>The website does not store analytics data itself and does not include private API keys. Configure only public service identifiers or public aggregate endpoints.</p>
+        {% if analytics.dashboard_url and analytics.dashboard_url != '' %}
+        <a class="button button--quiet" href="{{ analytics.dashboard_url }}">Open Analytics Dashboard</a>
+        {% else %}
+        <p class="analytics-note">Add a public dashboard URL in <code>_data/analytics.yml</code> after enabling shared analytics.</p>
+        {% endif %}
+      </article>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="wrap split">
     <div>
