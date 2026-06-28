@@ -34,13 +34,13 @@ permalink: /
         <strong>17</strong>
         <span>raw ROS bag trajectories</span>
       </div>
-      {% assign analytics = site.data.analytics %}
+      <!-- {% assign analytics = site.data.analytics %}
       {% if analytics.enabled and analytics.provider == 'busuanzi' %}
       <div class="stat stat--counter">
         <strong data-counter-copy="site_pv">...</strong>
         <span>site visits</span>
       </div>
-      {% endif %}
+      {% endif %} -->
     </div>
   </div>
 </section>
