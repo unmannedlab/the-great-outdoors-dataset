@@ -22,6 +22,26 @@ permalink: /download/
   </div>
 </section>
 
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Bulk access</p>
+        <h2>Download manifest.</h2>
+      </div>
+      <p>Use the JSON manifest to script downloads across raw ROS bags, radar packages, and annotations.</p>
+    </div>
+    <div class="download-grid download-grid--compact">
+      <article class="card download-card">
+        <span class="tag">Manifest</span>
+        <h3>All Download Links</h3>
+        <p>JSON manifest with raw bag, radar, and annotation links for scripted downloads.</p>
+        <a class="button" href="{{ '/google_link.json' | relative_url }}" download>Download JSON</a>
+      </article>
+    </div>
+  </div>
+</section>
+
 <section class="section section--paper">
   <div class="wrap">
     <div class="section-head">
@@ -129,6 +149,9 @@ permalink: /download/
             {% else %}
             <span class="button button--disabled" aria-disabled="true">No Bag Link</span>
             {% endif %}
+            {% if trajectory.radar_download_url %}
+            <a class="button button--quiet" href="{{ trajectory.radar_download_url }}">Download Radar</a>
+            {% endif %}
             <a class="button button--quiet" href="{{ trajectory.map_html | relative_url }}">Open Map</a>
           </div>
         </div>
@@ -172,6 +195,9 @@ permalink: /download/
             <a class="button" href="{{ trajectory.download_url }}">Download Bag</a>
             {% else %}
             <span class="button button--disabled" aria-disabled="true">No Bag Link</span>
+            {% endif %}
+            {% if trajectory.radar_download_url %}
+            <a class="button button--quiet" href="{{ trajectory.radar_download_url }}">Download Radar</a>
             {% endif %}
             <a class="button button--quiet" href="{{ trajectory.map_html | relative_url }}">Open Map</a>
           </div>

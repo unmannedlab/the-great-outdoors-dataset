@@ -1,86 +1,168 @@
 {
-    "bags":[
-  {
-    "name": "tamu_full_high_speed_run_1_2024-04-23-15-46-20.bag",
-    "link": "https://drive.google.com/file/d/1609BrohNMccx2uqVzzjC3GSh0r9NajBM/view?usp=drive_link"
-  },
-  {
-    "name": "tamu_full_stack_morning_run_1_2024-04-24-08-30-42.bag",
-    "link": "https://drive.google.com/file/d/1CXmHX61njEUhmRBZ1nQ_798o6kviDRta/view?usp=drive_link"
-  },
-  {
-    "name": "tamu_full_stack_morning_run_2_2024-04-24-08-46-21.bag",
-    "link": "https://drive.google.com/file/d/1-nkJ65sYhyAKYS4T9GmpbZYtnbW2Tieb/view?usp=drive_link"
-  },
-  {
-    "name": "tamu_full_stack_ravine_run_1_2024-04-23-12-21-36.bag",
-    "link": "https://drive.google.com/file/d/1dX5tDmbPaDD1zqhbifS_W41KN29oTORq/view?usp=drive_link"
-  },
-  {
-    "name": "tamu_full_stack_route_1_run_2_2024-04-23-10-27-20.bag",
-    "link": "https://drive.google.com/file/d/1a6ZUPgmNC1UkBISXdWQXVktnCAEUt4-5/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-23-11-44-47.bag",
-    "link": "https://drive.google.com/file/d/1DnlHM0gBaXsVSXpLhgYeCKYOcRjuHkBh/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-23-12-37-23.bag",
-    "link": "https://drive.google.com/file/d/1IkNbZnu8WRaM41K9LneI7obd5r7RQMHD/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-23-12-43-56.bag",
-    "link": "https://drive.google.com/file/d/1mM1MaU_FbtOgnOgPt8c0rxIeDYrUpq6o/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-23-16-57-14.bag",
-    "link": "https://drive.google.com/file/d/1vgIqpSPnvd-eoPEKLYlcioNDlK5dJBO1/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-23-17-19-16.bag",
-    "link": "https://drive.google.com/file/d/1piAgZsgz3XjvBzHSlPJ3rVmc815EML7V/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-24-09-44-24_newcal.bag",
-    "link": "https://drive.google.com/file/d/17ktBuuFHRcVtO69ox2zCDuDlj9Od2igh/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-24-10-02-23_newcal.bag",
-    "link": "https://drive.google.com/file/d/1ZbI6u4ewPNK7709X7nAVmoCwfv3lb1hv/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-24-10-42-36_newcal.bag",
-    "link": "https://drive.google.com/file/d/1qlGjFenEoXRKXIm6-0w9XRefIRavMWUg/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-24-12-01-38_newcal.bag",
-    "link": "https://drive.google.com/file/d/1wjVojkr3fWL_vJYBZXZWTF6w6nlPhp91/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-24-13-07-50_newcal.bag",
-    "link": "https://drive.google.com/file/d/1fb85bJM3pGi8X022zui68ElKp_huvIB2/view?usp=drive_link"
-  },
-  {
-    "name": "route1_morning_2024-04-23-08-24-52.bag",
-    "link": "https://drive.google.com/file/d/1sj5XHC8OQ4ABZPTwhsh-zBXA-7KGLHDn/view?usp=drive_link"
-  },
-  {
-    "name": "2025-01-24-10-24-27.bag",
-    "link": "https://drive.google.com/file/d/1sveYnTHbjln9nY0z9tdHsdXJlHA608zR/view?usp=drive_link"
-  }
-],
-    "annotations":[
-  {
-    "name": "go_rgb_segmentation.zip",
-    "link": "https://drive.google.com/file/d/1S5kNhSlOlikyaN6_ooWUGdD0YK7sVE9l/view?usp=drive_link"
-  },
-  {
-    "name": "go_rgb_caption.zip",
-    "link": "https://drive.google.com/file/d/1XbGxvHxoV6I4qJMAUL7cqrG7PSeElrVH/view?usp=drive_link"
-  },
-  {
-    "name": "go_lwir_segmentation.zip",
-    "link": "https://drive.google.com/file/d/1SM6nif5QKQOTzdNrRVPSvRNV97a_tkl-/view?usp=drive_link"
-  }      
+  "bags": [
+    {
+      "name": "tamu_full_high_speed_run_1_2024-04-23-15-46-20.bag",
+      "link": "https://drive.google.com/file/d/1609BrohNMccx2uqVzzjC3GSh0r9NajBM/view?usp=drive_link"
+    },
+    {
+      "name": "tamu_full_stack_morning_run_1_2024-04-24-08-30-42.bag",
+      "link": "https://drive.google.com/file/d/1CXmHX61njEUhmRBZ1nQ_798o6kviDRta/view?usp=drive_link"
+    },
+    {
+      "name": "tamu_full_stack_morning_run_2_2024-04-24-08-46-21.bag",
+      "link": "https://drive.google.com/file/d/1-nkJ65sYhyAKYS4T9GmpbZYtnbW2Tieb/view?usp=drive_link"
+    },
+    {
+      "name": "tamu_full_stack_ravine_run_1_2024-04-23-12-21-36.bag",
+      "link": "https://drive.google.com/file/d/1dX5tDmbPaDD1zqhbifS_W41KN29oTORq/view?usp=drive_link"
+    },
+    {
+      "name": "tamu_full_stack_route_1_run_2_2024-04-23-10-27-20.bag",
+      "link": "https://drive.google.com/file/d/1a6ZUPgmNC1UkBISXdWQXVktnCAEUt4-5/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-23-11-44-47.bag",
+      "link": "https://drive.google.com/file/d/1DnlHM0gBaXsVSXpLhgYeCKYOcRjuHkBh/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-23-12-37-23.bag",
+      "link": "https://drive.google.com/file/d/1IkNbZnu8WRaM41K9LneI7obd5r7RQMHD/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-23-12-43-56.bag",
+      "link": "https://drive.google.com/file/d/1mM1MaU_FbtOgnOgPt8c0rxIeDYrUpq6o/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-23-16-57-14.bag",
+      "link": "https://drive.google.com/file/d/1vgIqpSPnvd-eoPEKLYlcioNDlK5dJBO1/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-23-17-19-16.bag",
+      "link": "https://drive.google.com/file/d/1piAgZsgz3XjvBzHSlPJ3rVmc815EML7V/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-24-09-44-24_newcal.bag",
+      "link": "https://drive.google.com/file/d/17ktBuuFHRcVtO69ox2zCDuDlj9Od2igh/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-24-10-02-23_newcal.bag",
+      "link": "https://drive.google.com/file/d/1ZbI6u4ewPNK7709X7nAVmoCwfv3lb1hv/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-24-10-42-36_newcal.bag",
+      "link": "https://drive.google.com/file/d/1qlGjFenEoXRKXIm6-0w9XRefIRavMWUg/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-24-12-01-38_newcal.bag",
+      "link": "https://drive.google.com/file/d/1wjVojkr3fWL_vJYBZXZWTF6w6nlPhp91/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-24-13-07-50_newcal.bag",
+      "link": "https://drive.google.com/file/d/1fb85bJM3pGi8X022zui68ElKp_huvIB2/view?usp=drive_link"
+    },
+    {
+      "name": "route1_morning_2024-04-23-08-24-52.bag",
+      "link": "https://drive.google.com/file/d/1sj5XHC8OQ4ABZPTwhsh-zBXA-7KGLHDn/view?usp=drive_link"
+    },
+    {
+      "name": "2025-01-24-10-24-27.bag",
+      "link": "https://drive.google.com/file/d/1sveYnTHbjln9nY0z9tdHsdXJlHA608zR/view?usp=drive_link"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "go_rgb_segmentation.zip",
+      "link": "https://drive.google.com/file/d/1S5kNhSlOlikyaN6_ooWUGdD0YK7sVE9l/view?usp=drive_link"
+    },
+    {
+      "name": "go_rgb_caption.zip",
+      "link": "https://drive.google.com/file/d/1XbGxvHxoV6I4qJMAUL7cqrG7PSeElrVH/view?usp=drive_link"
+    },
+    {
+      "name": "go_lwir_segmentation.zip",
+      "link": "https://drive.google.com/file/d/1SM6nif5QKQOTzdNrRVPSvRNV97a_tkl-/view?usp=drive_link"
+    }
+  ],
+  "radar_data": [
+    {
+      "name": "2025-01-23-11-44-47.bag.tar.gz",
+      "rosbag": "2025-01-23-11-44-47.bag",
+      "link": "https://drive.google.com/file/d/1PlZjq7f5HwMzSovRDX4du_NJvyrM4wvu/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-23-12-37-23.bag.tar.gz",
+      "rosbag": "2025-01-23-12-37-23.bag",
+      "link": "https://drive.google.com/file/d/1LKqXjYhNcg-YLhjUSXRX2ji0V69RdSPC/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-23-12-43-56.bag.tar.gz",
+      "rosbag": "2025-01-23-12-43-56.bag",
+      "link": "https://drive.google.com/file/d/18UQLHJrmlM5hXYzdM7UmjyL9jPjYy5bI/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-23-16-57-14.bag.tar.gz",
+      "rosbag": "2025-01-23-16-57-14.bag",
+      "link": "https://drive.google.com/file/d/1IDMBguL40hGMyEihw1KiW7LaZb4DP2rl/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-23-17-19-16.bag.tar.gz",
+      "rosbag": "2025-01-23-17-19-16.bag",
+      "link": "https://drive.google.com/file/d/1aMa7Sizzzf1BlGEDCJtV3qlOBcUcW_01/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-24-09-44-24_newcal.bag.tar.gz",
+      "rosbag": "2025-01-24-09-44-24_newcal.bag",
+      "link": "https://drive.google.com/file/d/1Y_73ss7ijmTL_LOzVdfnGOoo5twQxBVp/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-24-10-02-23_newcal.bag.tar.gz",
+      "rosbag": "2025-01-24-10-02-23_newcal.bag",
+      "link": "https://drive.google.com/file/d/1vEcXVNtsiLsr7QJ0MXGsGuYqtwIJ3yYj/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-24-10-24-27.bag.tar.gz",
+      "rosbag": "2025-01-24-10-24-27.bag",
+      "link": "https://drive.google.com/file/d/1h_IyjUu3gAy4BRL7N-ASuskT7VhHT6Ls/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-24-10-42-36_newcal.bag.tar.gz",
+      "rosbag": "2025-01-24-10-42-36_newcal.bag",
+      "link": "https://drive.google.com/file/d/1Yy0F8UGAb12OKzRbSp6jUxynJ1XMMFVq/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-24-12-01-38_newcal.bag.tar.gz",
+      "rosbag": "2025-01-24-12-01-38_newcal.bag",
+      "link": "https://drive.google.com/file/d/1j_OJg4b30zCMuCIJj-gWyj4K3nOm6TMq/view?usp=drivesdk"
+    },
+    {
+      "name": "2025-01-24-13-07-50_newcal.bag.tar.gz",
+      "rosbag": "2025-01-24-13-07-50_newcal.bag",
+      "link": "https://drive.google.com/file/d/123Kgaa_ctUGg45OAaPVCGCmGu8OK0qzU/view?usp=drivesdk"
+    },
+    {
+      "name": "tamu_full_high_speed_run_1_2024-04-23-15-46-20.bag.tar.gz",
+      "rosbag": "tamu_full_high_speed_run_1_2024-04-23-15-46-20.bag",
+      "link": "https://drive.google.com/file/d/1jbDtljhqLJPD98ql-2_Qi2lp184PUZjM/view?usp=drivesdk"
+    },
+    {
+      "name": "tamu_full_stack_morning_run_1_2024-04-24-08-30-42.bag.tar.gz",
+      "rosbag": "tamu_full_stack_morning_run_1_2024-04-24-08-30-42.bag",
+      "link": "https://drive.google.com/file/d/1sBoNpogXx7-w6eVNkVDReKiqhOg_TKvV/view?usp=drivesdk"
+    },
+    {
+      "name": "tamu_full_stack_morning_run_2_2024-04-24-08-46-21.bag.tar.gz",
+      "rosbag": "tamu_full_stack_morning_run_2_2024-04-24-08-46-21.bag",
+      "link": "https://drive.google.com/file/d/1XB3T5jgNA_55QQfXnUt252otIya7PJgU/view?usp=drivesdk"
+    },
+    {
+      "name": "tamu_full_stack_route_1_run_2_2024-04-23-10-27-20.bag.tar.gz",
+      "rosbag": "tamu_full_stack_route_1_run_2_2024-04-23-10-27-20.bag",
+      "link": "https://drive.google.com/file/d/1YAxldDIzzmAWo_VN7kUv93hDasBsHuCj/view?usp=drivesdk"
+    },
+    {
+      "name": "route1_morning_2024-04-23-08-24-52.bag.tar.gz",
+      "rosbag": "route1_morning_2024-04-23-08-24-52.bag",
+      "link": "https://drive.google.com/file/d/19LonpiAX7snSP_y62dEQ3RI-rS4y8dmx/view?usp=drivesdk"
+    }
   ]
 }

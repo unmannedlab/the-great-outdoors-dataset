@@ -7,6 +7,7 @@
   length_km: 1.63
   duration_min: 23.6
   point_count: 5667
+  radar_download_url: https://drive.google.com/file/d/1PlZjq7f5HwMzSovRDX4du_NJvyrM4wvu/view?usp=drivesdk
 - name: 2025-01-23-12-37-23.bag
   label: 2025-01-23-12-37-23
   download_url: https://drive.google.com/file/d/1IkNbZnu8WRaM41K9LneI7obd5r7RQMHD/view?usp=drive_link
@@ -15,6 +16,7 @@
   length_km: 0.85
   duration_min: 5.0
   point_count: 1208
+  radar_download_url: https://drive.google.com/file/d/1LKqXjYhNcg-YLhjUSXRX2ji0V69RdSPC/view?usp=drivesdk
 - name: 2025-01-23-12-43-56.bag
   label: 2025-01-23-12-43-56
   download_url: https://drive.google.com/file/d/1mM1MaU_FbtOgnOgPt8c0rxIeDYrUpq6o/view?usp=drive_link
@@ -23,6 +25,7 @@
   length_km: 0.95
   duration_min: 6.8
   point_count: 1643
+  radar_download_url: https://drive.google.com/file/d/18UQLHJrmlM5hXYzdM7UmjyL9jPjYy5bI/view?usp=drivesdk
 - name: 2025-01-23-16-57-14.bag
   label: 2025-01-23-16-57-14
   download_url: https://drive.google.com/file/d/1vgIqpSPnvd-eoPEKLYlcioNDlK5dJBO1/view?usp=drive_link
@@ -31,6 +34,7 @@
   length_km: 2.61
   duration_min: 19.5
   point_count: 4683
+  radar_download_url: https://drive.google.com/file/d/1IDMBguL40hGMyEihw1KiW7LaZb4DP2rl/view?usp=drivesdk
 - name: 2025-01-23-17-19-16.bag
   label: 2025-01-23-17-19-16
   download_url: https://drive.google.com/file/d/1piAgZsgz3XjvBzHSlPJ3rVmc815EML7V/view?usp=drive_link
@@ -39,6 +43,7 @@
   length_km: 2.61
   duration_min: 13.8
   point_count: 3314
+  radar_download_url: https://drive.google.com/file/d/1aMa7Sizzzf1BlGEDCJtV3qlOBcUcW_01/view?usp=drivesdk
 - name: 2025-01-24-09-44-24_newcal.bag
   label: 2025-01-24-09-44-24 newcal
   download_url: https://drive.google.com/file/d/17ktBuuFHRcVtO69ox2zCDuDlj9Od2igh/view?usp=drive_link
@@ -47,6 +52,7 @@
   length_km: 2.03
   duration_min: 13.2
   point_count: 3167
+  radar_download_url: https://drive.google.com/file/d/1Y_73ss7ijmTL_LOzVdfnGOoo5twQxBVp/view?usp=drivesdk
 - name: 2025-01-24-10-02-23_newcal.bag
   label: 2025-01-24-10-02-23 newcal
   download_url: https://drive.google.com/file/d/1ZbI6u4ewPNK7709X7nAVmoCwfv3lb1hv/view?usp=drive_link
@@ -55,6 +61,7 @@
   length_km: 2.74
   duration_min: 17.9
   point_count: 4294
+  radar_download_url: https://drive.google.com/file/d/1vEcXVNtsiLsr7QJ0MXGsGuYqtwIJ3yYj/view?usp=drivesdk
 - name: 2025-01-24-10-24-27.bag
   label: 2025-01-24-10-24-27
   download_url: https://drive.google.com/file/d/1sveYnTHbjln9nY0z9tdHsdXJlHA608zR/view?usp=drive_link
@@ -63,6 +70,7 @@
   length_km: 2.58
   duration_min: 15.6
   point_count: 3756
+  radar_download_url: https://drive.google.com/file/d/1h_IyjUu3gAy4BRL7N-ASuskT7VhHT6Ls/view?usp=drivesdk
 - name: 2025-01-24-10-42-36_newcal.bag
   label: 2025-01-24-10-42-36 newcal
   download_url: https://drive.google.com/file/d/1qlGjFenEoXRKXIm6-0w9XRefIRavMWUg/view?usp=drive_link
@@ -71,6 +79,7 @@
   length_km: 2.61
   duration_min: 13.8
   point_count: 3311
+  radar_download_url: https://drive.google.com/file/d/1Yy0F8UGAb12OKzRbSp6jUxynJ1XMMFVq/view?usp=drivesdk
 - name: 2025-01-24-12-01-38_newcal.bag
   label: 2025-01-24-12-01-38 newcal
   download_url: https://drive.google.com/file/d/1wjVojkr3fWL_vJYBZXZWTF6w6nlPhp91/view?usp=drive_link
@@ -79,6 +88,7 @@
   length_km: 1.64
   duration_min: 24.4
   point_count: 5859
+  radar_download_url: https://drive.google.com/file/d/1j_OJg4b30zCMuCIJj-gWyj4K3nOm6TMq/view?usp=drivesdk
 - name: 2025-01-24-13-07-50_newcal.bag
   label: 2025-01-24-13-07-50 newcal
   download_url: https://drive.google.com/file/d/1fb85bJM3pGi8X022zui68ElKp_huvIB2/view?usp=drive_link
@@ -87,6 +97,7 @@
   length_km: 0.86
   duration_min: 4.8
   point_count: 1144
+  radar_download_url: https://drive.google.com/file/d/123Kgaa_ctUGg45OAaPVCGCmGu8OK0qzU/view?usp=drivesdk
 - name: tamu_full_high_speed_run_1_2024-04-23-15-46-20.bag
   label: tamu full high speed run 1 2024-04-23-15-46-20
   download_url: https://drive.google.com/file/d/1609BrohNMccx2uqVzzjC3GSh0r9NajBM/view?usp=drive_link
@@ -95,6 +106,7 @@
   length_km: 0.57
   duration_min: 3.4
   point_count: 825
+  radar_download_url: https://drive.google.com/file/d/1jbDtljhqLJPD98ql-2_Qi2lp184PUZjM/view?usp=drivesdk
 - name: tamu_full_stack_morning_run_1_2024-04-24-08-30-42.bag
   label: tamu full stack morning run 1 2024-04-24-08-30-42
   download_url: https://drive.google.com/file/d/1CXmHX61njEUhmRBZ1nQ_798o6kviDRta/view?usp=drive_link
@@ -103,6 +115,7 @@
   length_km: 2.34
   duration_min: 13.0
   point_count: 3127
+  radar_download_url: https://drive.google.com/file/d/1sBoNpogXx7-w6eVNkVDReKiqhOg_TKvV/view?usp=drivesdk
 - name: tamu_full_stack_morning_run_2_2024-04-24-08-46-21.bag
   label: tamu full stack morning run 2 2024-04-24-08-46-21
   download_url: https://drive.google.com/file/d/1-nkJ65sYhyAKYS4T9GmpbZYtnbW2Tieb/view?usp=drive_link
@@ -111,6 +124,7 @@
   length_km: 2.84
   duration_min: 17.9
   point_count: 4233
+  radar_download_url: https://drive.google.com/file/d/1XB3T5jgNA_55QQfXnUt252otIya7PJgU/view?usp=drivesdk
 - name: tamu_full_stack_ravine_run_1_2024-04-23-12-21-36.bag
   label: tamu full stack ravine run 1 2024-04-23-12-21-36
   download_url: https://drive.google.com/file/d/1dX5tDmbPaDD1zqhbifS_W41KN29oTORq/view?usp=drive_link
@@ -127,6 +141,7 @@
   length_km: 2.78
   duration_min: 30.9
   point_count: 7407
+  radar_download_url: https://drive.google.com/file/d/1YAxldDIzzmAWo_VN7kUv93hDasBsHuCj/view?usp=drivesdk
 - name: route1_morning_2024-04-23-08-24-52.bag
   label: route1 morning 2024-04-23-08-24-52
   download_url: https://drive.google.com/file/d/1sj5XHC8OQ4ABZPTwhsh-zBXA-7KGLHDn/view?usp=drive_link
@@ -135,3 +150,4 @@
   length_km: 2.68
   duration_min: 31.2
   point_count: 7485
+  radar_download_url: https://drive.google.com/file/d/19LonpiAX7snSP_y62dEQ3RI-rS4y8dmx/view?usp=drivesdk
